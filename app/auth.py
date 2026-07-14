@@ -5,7 +5,7 @@ _ADMIN_ROLE = "admin"
 
 
 def authorize_request(request, user_store):
-    raw_header = request.headers.get("Authorization", "")
+    raw_header = request.headers.get("Authorization", "").strip()
     if not raw_header:
         return {"allowed": False, "reason": "no-authorization-header"}
 
