@@ -1,3 +1,3 @@
-# testbed
+# outrider-test
 
-A sandbox repository for exercising the Outrider PR reviewer end to end.
+Sandbox repository for exercising the Outrider reviewer.
